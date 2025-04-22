@@ -1,4 +1,12 @@
-# What I’m Reading and Watching
+# What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
+
+### Week ending 4/28/2025
+
+*Went through a bunch of old but great Camille Fournier Articles*
+- 📖 [10 Years of Engineering Ladders](https://skamille.medium.com/10-years-of-engineering-ladders-329d309000cd) - 10 years after Rent the Runway career ladder
+- 📖 [The Senior Shortcut](https://skamille.medium.com/the-senior-shortcut-fadffe5503fd) - If AI is removing the need for Junior Engineers (massive air quotes) then how do folks get to Senior? 
+- 📖 [How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5) -Failure modes of early state managers
+- 📖 [An Incomplete List of Skills Senior Engineers Need Beyond Coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) - If you're looking to become more experienced, this is a good place to start looking. 
 
 ### Week ending 4/11/2025
 
@@ -6,6 +14,7 @@
 - 📖 [But what if I really want a faster horse?](https://rakhim.exotext.com/but-what-if-i-really-want-a-faster-horse) - Overused reference, but interesting take on product development and - probably - the need for revenue to always grow.
 - 📖 [How to Get a Standing Ovation as a Conference Speaker](https://akos.ma/blog/how-to-get-a-standing-ovation-as-a-conference-speaker/) - Good overview /checklist for public speaking and what to think about.
 - 🎧 [The Rest is Classified - Podcast](https://podcasts.apple.com/ca/podcast/the-rest-is-classified/id1780384916) - Range of topics but includes modern day bank heists and other interesting topics..
+- 📖  [Semantic Diffusion](https://simonwillison.net/2025/Mar/23/semantic-diffusion/) - When is vibe coding not vibe coding? 
 
 ### Week Ending 4/4/2025
 
@@ -62,7 +71,7 @@
 - 📖 [Incident SEV scales are a waste of time](https://blog.danslimmon.com/2025/01/29/incident-sev-scales-are-a-waste-of-time/) - Sorta preaching to the choir but a nice short read
 - 📖 [An Incident Command Training Handbook -](https://blog.danslimmon.com/2019/06/24/an-incident-command-training-handbook/) Same author as above. Some good points and mental models
 - 📺 [The Five Dirty Words of Continuous Improvement](https://www.youtube.com/watch?v=ZXXaCCbpNYw) - Preed making another appearance!
-- 📺 [1994 Black Hawk Friendly Fire Shootdown Incident](https://www.youtube.com/watch?v=QpIUTqbByTE) - [Allspaw recommended the book](https://www.amazon.ca/Friendly-Fire-Accidental-Shootdown-Northern/dp/0691095183) but it’s not on audible so tried to learn more about it.  ****
+- 📺 [1994 Black Hawk Friendly Fire Shootdown Incident](https://www.youtube.com/watch?v=QpIUTqbByTE) - [Allspaw recommended the book](https://www.amazon.ca/Friendly-Fire-Accidental-Shootdown-Northern/dp/0691095183) but it’s not on audible so tried to learn more about it.
 - 📖 [Markers of Progress in Incident Analysis](https://www.adaptivecapacitylabs.com/2019/11/20/markers-of-progress-incident-analysis/) - Another Allspaw post on what improvement looks like
 - 📺 [Ice, confusion, and the 38,000ft crash](https://www.youtube.com/watch?v=s4S7tRnSQmI) - Contributing factors and complexity in incidents. Ironies of automation.
 
