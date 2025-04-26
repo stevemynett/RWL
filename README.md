@@ -8,6 +8,9 @@
 - 📖 [How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5) -Failure modes of early state managers
 - 📖 [An Incomplete List of Skills Senior Engineers Need Beyond Coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) - If you're looking to become more experienced, this is a good place to start looking. 
 
+### Week ending 4/18/2025
+- 📺 [The Real Story Behind the Apollo 11 Computer Error](https://www.youtube.com/watch?v=z4cn93H6sM0) What really went wrong?
+
 ### Week ending 4/11/2025
 
 - 📖  [Your Strengths Are Your Weakness](https://terriblesoftware.org/2025/03/31/your-strengths-are-your-weaknesses/) - Something I believe to be true. Traits of shadow sides and will show up differently in different situations.
