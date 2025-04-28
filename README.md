@@ -1,6 +1,9 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
-### Week ending 4/28/2025
+### Week ending 4/26/2025
+
+- 📺 [Captain Sully's Minute-by-Minute Description of The Miracle On The Hudson](https://www.youtube.com/watch?v=z4cn93H6sM0) In his own words and how to triage during the incident.
+
 
 *Went through a bunch of old but great Camille Fournier Articles*
 - 📖 [10 Years of Engineering Ladders](https://skamille.medium.com/10-years-of-engineering-ladders-329d309000cd) - 10 years after Rent the Runway career ladder
