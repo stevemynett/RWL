@@ -5,6 +5,8 @@
 - 📺 [Captain Sully's Minute-by-Minute Description of The Miracle On The Hudson](https://www.youtube.com/watch?v=z4cn93H6sM0) In his own words and how to triage during the incident.
 
 
+- 📺 [SREcon25 Americas - Incident Management Metrics That Matter](https://www.youtube.com/watch?v=QrR2SvpWvdg) - Good overview on meaningful and insightful metrics that can be used by Incident Ops teams. 
+
 *Went through a bunch of old but great Camille Fournier Articles*
 - 📖 [10 Years of Engineering Ladders](https://skamille.medium.com/10-years-of-engineering-ladders-329d309000cd) - 10 years after Rent the Runway career ladder
 - 📖 [The Senior Shortcut](https://skamille.medium.com/the-senior-shortcut-fadffe5503fd) - If AI is removing the need for Junior Engineers (massive air quotes) then how do folks get to Senior? 
