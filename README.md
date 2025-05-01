@@ -2,6 +2,11 @@
 
 ### Week ending 5/2/2025
 
+- 📖 [Advice for time management as a manager](https://www.benkuhn.net/tmgr/) - Two good useful things here. 1. Deadlines are things where important things get missed if they aren't met. They are not arbitrary. And a good "I'm overwhelmed" checklist. 
+
+- 📺 [Why Your Team is Probably Missing the AI Revolution (And NASA Can Explain Why)](https://www.youtube.com/watch?v=dohW_oogbis) Talks about the adoption of AI for teams vs individuals
+
+- 🎧 [Generative AI in the Real World: Getting Ahead of the Curve with Claire Vo](https://www.youtube.com/watch?v=EGx82P7jwYg) - Good soundbites on her take on how things are gonna change with the direction of AI 
 
 - 📺[AWS re:Invent 2017 - Nora Jones Describes Why We Need More Chaos - Chaos Engineering, That Is](https://www.youtube.com/watch?v=rgfww8tLM0A) Oldie but goodie. Found some really good take aways even though I had seen it before.
 - 📺[The Repeat Incident Fallacy: What Jurassic Park Can Teach Us...](https://www.youtube.com/watch?v=QXQaoCgZECs) Revisiting for no reason. It's so good!
@@ -25,7 +30,7 @@
 
 ### Week ending 4/11/2025
 
-- 📖  [Your Strengths Are Your Weakness](https://terriblesoftware.org/2025/03/31/your-strengths-are-your-weaknesses/) - Something I believe to be true. Traits of shadow sides and will show up differently in different situations.
+- 📖 [Your Strengths Are Your Weakness](https://terriblesoftware.org/2025/03/31/your-strengths-are-your-weaknesses/) - Something I believe to be true. Traits of shadow sides and will show up differently in different situations.
 - 📖 [But what if I really want a faster horse?](https://rakhim.exotext.com/but-what-if-i-really-want-a-faster-horse) - Overused reference, but interesting take on product development and - probably - the need for revenue to always grow.
 - 📖 [How to Get a Standing Ovation as a Conference Speaker](https://akos.ma/blog/how-to-get-a-standing-ovation-as-a-conference-speaker/) - Good overview /checklist for public speaking and what to think about.
 - 🎧 [The Rest is Classified - Podcast](https://podcasts.apple.com/ca/podcast/the-rest-is-classified/id1780384916) - Range of topics but includes modern day bank heists and other interesting topics..
