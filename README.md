@@ -1,5 +1,12 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+### Week ending 5/2/2025
+
+
+- 📺[AWS re:Invent 2017 - Nora Jones Describes Why We Need More Chaos - Chaos Engineering, That Is](https://www.youtube.com/watch?v=rgfww8tLM0A) Oldie but goodie. Found some really good take aways even though I had seen it before.
+- 📺[The Repeat Incident Fallacy: What Jurassic Park Can Teach Us...](https://www.youtube.com/watch?v=QXQaoCgZECs) Revisiting for no reason. It's so good!
+- 📖 [How we identified a North Korean hacker who tried to get a job at Kraken](https://blog.kraken.com/news/how-we-identified-a-north-korean-hacker) It's getting easier and easier every day...
+
 ### Week ending 4/26/2025
 
 - 📺 [Captain Sully's Minute-by-Minute Description of The Miracle On The Hudson](https://www.youtube.com/watch?v=z4cn93H6sM0) In his own words and how to triage during the incident.
