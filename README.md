@@ -1,13 +1,10 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
 ### Week ending 5/2/2025
-
+- 📺 [SREcon25 Americas - Running DRP Tabletop Exercises](https://www.youtube.com/watch?v=HIy55SioraY&t=1s) - Good take on some DR stuff. Expands on templtes, things to cover and participant follow up. 
 - 📖 [Advice for time management as a manager](https://www.benkuhn.net/tmgr/) - Two good useful things here. 1. Deadlines are things where important things get missed if they aren't met. They are not arbitrary. And a good "I'm overwhelmed" checklist. 
-
 - 📺 [Why Your Team is Probably Missing the AI Revolution (And NASA Can Explain Why)](https://www.youtube.com/watch?v=dohW_oogbis) Talks about the adoption of AI for teams vs individuals
-
 - 🎧 [Generative AI in the Real World: Getting Ahead of the Curve with Claire Vo](https://www.youtube.com/watch?v=EGx82P7jwYg) - Good soundbites on her take on how things are gonna change with the direction of AI 
-
 - 📺[AWS re:Invent 2017 - Nora Jones Describes Why We Need More Chaos - Chaos Engineering, That Is](https://www.youtube.com/watch?v=rgfww8tLM0A) Oldie but goodie. Found some really good take aways even though I had seen it before.
 - 📺[The Repeat Incident Fallacy: What Jurassic Park Can Teach Us...](https://www.youtube.com/watch?v=QXQaoCgZECs) Revisiting for no reason. It's so good!
 - 📖 [How we identified a North Korean hacker who tried to get a job at Kraken](https://blog.kraken.com/news/how-we-identified-a-north-korean-hacker) It's getting easier and easier every day...
@@ -15,8 +12,6 @@
 ### Week ending 4/26/2025
 
 - 📺 [Captain Sully's Minute-by-Minute Description of The Miracle On The Hudson](https://www.youtube.com/watch?v=z4cn93H6sM0) In his own words and how to triage during the incident.
-
-
 - 📺 [SREcon25 Americas - Incident Management Metrics That Matter](https://www.youtube.com/watch?v=QrR2SvpWvdg) - Good overview on meaningful and insightful metrics that can be used by Incident Ops teams. 
 
 *Went through a bunch of old but great Camille Fournier Articles*
