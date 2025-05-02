@@ -59,10 +59,6 @@
 - 📖  [AI fakers exposed in tech dev recruitment: postmortem (sic)](https://newsletter.pragmaticengineer.com/p/ai-fakers) - Incidents don’t scare me. Nation State Actors gaining access to our systems and stealing all the money scares me.
 - 📺 [12 Logging BEST Practices in 12 minutes](https://www.youtube.com/watch?v=I2mWnh66Bkg) - Good overview
 
-### Week Ending 3/7/2025 (too busy)
-
-![](https://media2.giphy.com/media/v1.Y2lkPTc5NDFmZGM2aTdkMGx3NmY5eTMyN2kyYXZtaHVxZzVzenRudTg2Z3Fwa2VscDY0NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/q6RoNkLlFNjaw/giphy.gif)
-
 ### Week Ending 2/28/2025
 
 - 📺 [What is a BACK BRIEF? Learn how to prevent communication errors.](https://www.youtube.com/watch?v=NAIyN03cSIk) Quick video on a military term to ensure clear communication.
