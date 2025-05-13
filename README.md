@@ -3,7 +3,12 @@
 ### Week Ending 5/16/2025
 - 📺 [Is reality real? These neuroscientists don’t think so | Big Think](https://www.youtube.com/watch?v=RZdfE_7cde0) - Talks about what is essentially the line of representation for reality. 
 - 📺 [A conversation with Jony Ive](https://www.youtube.com/watch?v=RZdfE_7cde0) - Lots in here but good insight on to what he thinks a god team is and how it works. 
+- 📺 [The CIA method for making quick decisions under stress](https://www.youtube.com/watch?v=h5sCj8ic1rM) - Prioritization and decision making under time pressure.
+- 📺 [The CIA method for making quick decisions under stress ](https://www.youtube.com/watch?v=iJFIzE3i0X0) - Another good take on decision making. Task saturation and "what do we do next".
 
+### Week Ending 5/9/2025
+- 📺 [SREcon25 Americas - SRE & Complexification: Where Verbs and Nouns Do Battle](https://www.youtube.com/watch?v=lmBvUJnGUX4)
+- 📺 [SREcon25 Americas - AIOps: Prove It! An Open Letter to Vendors Selling AI for SREs](https://www.youtube.com/watch?v=twl_PdIpRA0)
 
 ### Week ending 5/2/2025
 - 📺 [SREcon25 Americas - Running DRP Tabletop Exercises](https://www.youtube.com/watch?v=HIy55SioraY&t=1s) - Good take on some DR stuff. Expands on templtes, things to cover and participant follow up. 
