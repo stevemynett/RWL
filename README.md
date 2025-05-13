@@ -1,5 +1,10 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+### Week Ending 5/16/2025
+- 📺 [Is reality real? These neuroscientists don’t think so | Big Think](https://www.youtube.com/watch?v=RZdfE_7cde0) - Talks about what is essentially the line of representation for reality. 
+- 📺 [A conversation with Jony Ive](https://www.youtube.com/watch?v=RZdfE_7cde0) - Lots in here but good insight on to what he thinks a god team is and how it works. 
+
+
 ### Week ending 5/2/2025
 - 📺 [SREcon25 Americas - Running DRP Tabletop Exercises](https://www.youtube.com/watch?v=HIy55SioraY&t=1s) - Good take on some DR stuff. Expands on templtes, things to cover and participant follow up. 
 - 📖 [Advice for time management as a manager](https://www.benkuhn.net/tmgr/) - Two good useful things here. 1. Deadlines are things where important things get missed if they aren't met. They are not arbitrary. And a good "I'm overwhelmed" checklist. 
