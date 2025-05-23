@@ -1,10 +1,15 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+### Week Ending 5/23/2025
+- 📺 [Anthropic MCP Server Course](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/lesson/fkbhh/introduction) - 90 minute training on MCP stuff. 
+- 📺 [How custom GPTs can make you a better manager](https://www.youtube.com/watch?v=xDMkkOC-EhI&t=1s) - Good take on AI for Managers
+- 
+
 ### Week Ending 5/16/2025
 - 📺 [Is reality real? These neuroscientists don’t think so | Big Think](https://www.youtube.com/watch?v=RZdfE_7cde0) - Talks about what is essentially the line of representation for reality. 
 - 📺 [A conversation with Jony Ive](https://www.youtube.com/watch?v=RZdfE_7cde0) - Lots in here but good insight on to what he thinks a god team is and how it works. 
 - 📺 [The CIA method for making quick decisions under stress](https://www.youtube.com/watch?v=h5sCj8ic1rM) - Prioritization and decision making under time pressure.
-- 📺 [The CIA method for making quick decisions under stress ](https://www.youtube.com/watch?v=iJFIzE3i0X0) - Another good take on decision making. Task saturation and "what do we do next".
+- 📺 [Former CIA agent: The truth about manipulation](https://www.youtube.com/watch?v=iJFIzE3i0X0) - Another good take on decision making. Task saturation and "what do we do next".
 
 ### Week Ending 5/9/2025
 - 📺 [SREcon25 Americas - SRE & Complexification: Where Verbs and Nouns Do Battle](https://www.youtube.com/watch?v=lmBvUJnGUX4)
