@@ -1,9 +1,16 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+### Week ending 5/30/2025
+- 📖 [In defense of shallow technical knowledge](https://www.seangoedecke.com/shallow-technical-knowledge/) - This puts into words how I've been thinking about how to approach technical knowledge for an Incident Team.
+- 📺 [A 3-step AI coding workflow for solo founders](https://www.youtube.com/watch?v=fD4ktSkNCw4&t=1839s) - Very good overview to integrate great PRD/Task generation prompts in Cursor.
+- 📖[What Do I Think I Think About LLMs](https://noelrappin.com/blog/2025/05/what-do-i-think-i-think-about-llms/) - Always good to read what your colleagues write
+
+
+
 ### Week Ending 5/23/2025
 - 📺 [Anthropic MCP Server Course](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/lesson/fkbhh/introduction) - 90 minute training on MCP stuff. 
 - 📺 [How custom GPTs can make you a better manager](https://www.youtube.com/watch?v=xDMkkOC-EhI&t=1s) - Good take on AI for Managers
-- 
+
 
 ### Week Ending 5/16/2025
 - 📺 [Is reality real? These neuroscientists don’t think so | Big Think](https://www.youtube.com/watch?v=RZdfE_7cde0) - Talks about what is essentially the line of representation for reality. 
@@ -17,7 +24,7 @@
 
 ### Week ending 5/2/2025
 - 📺 [SREcon25 Americas - Running DRP Tabletop Exercises](https://www.youtube.com/watch?v=HIy55SioraY&t=1s) - Good take on some DR stuff. Expands on templtes, things to cover and participant follow up. 
-- 📖 [Advice for time management as a manager](https://www.benkuhn.net/tmgr/) - Two good useful things here. 1. Deadlines are things where important things get missed if they aren't met. They are not arbitrary. And a good "I'm overwhelmed" checklist. 
+- 📖 [Advice for time management as a manager](https://www.benkuhn.net/tmgr/) - Two good useful things here. 1. Deadlines are things where important things get missed if they aren't met. They are not arbitrary. And a good "I'm overwhelmed" checklist. 
 - 📺 [Why Your Team is Probably Missing the AI Revolution (And NASA Can Explain Why)](https://www.youtube.com/watch?v=dohW_oogbis) Talks about the adoption of AI for teams vs individuals
 - 🎧 [Generative AI in the Real World: Getting Ahead of the Curve with Claire Vo](https://www.youtube.com/watch?v=EGx82P7jwYg) - Good soundbites on her take on how things are gonna change with the direction of AI 
 - 📺[AWS re:Invent 2017 - Nora Jones Describes Why We Need More Chaos - Chaos Engineering, That Is](https://www.youtube.com/watch?v=rgfww8tLM0A) Oldie but goodie. Found some really good take aways even though I had seen it before.
