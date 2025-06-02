@@ -1,16 +1,17 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+### Week ending 6/6/2025
+- 📖 [Is AI-assisted coding an incident magnet?](https://leaddev.com/software-quality/ai-assisted-coding-incident-magnet) - Feels obvious in hindsight but draws a distionction between "read and write" mode for AI 
+
 ### Week ending 5/30/2025
 - 📖 [In defense of shallow technical knowledge](https://www.seangoedecke.com/shallow-technical-knowledge/) - This puts into words how I've been thinking about how to approach technical knowledge for an Incident Team.
 - 📺 [A 3-step AI coding workflow for solo founders](https://www.youtube.com/watch?v=fD4ktSkNCw4&t=1839s) - Very good overview to integrate great PRD/Task generation prompts in Cursor.
-- 📖[What Do I Think I Think About LLMs](https://noelrappin.com/blog/2025/05/what-do-i-think-i-think-about-llms/) - Always good to read what your colleagues write
-
-
+- 📖 [What Do I Think I Think About LLMs](https://noelrappin.com/blog/2025/05/what-do-i-think-i-think-about-llms/) - Always good to read what your colleagues write
+- 📺 [State-Of-The-Art Prompting For AI Agents](https://www.youtube.com/watch?v=DL82mGde6wo) - Very good overview to integrate great PRD/Task generation prompts in Cursor.
 
 ### Week Ending 5/23/2025
 - 📺 [Anthropic MCP Server Course](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/lesson/fkbhh/introduction) - 90 minute training on MCP stuff. 
 - 📺 [How custom GPTs can make you a better manager](https://www.youtube.com/watch?v=xDMkkOC-EhI&t=1s) - Good take on AI for Managers
-
 
 ### Week Ending 5/16/2025
 - 📺 [Is reality real? These neuroscientists don’t think so | Big Think](https://www.youtube.com/watch?v=RZdfE_7cde0) - Talks about what is essentially the line of representation for reality. 
