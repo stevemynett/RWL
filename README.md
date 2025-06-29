@@ -1,5 +1,8 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+### Week ending 7/4/2025
+- 📺 [Netflix doc on the Titan disaster](https://www.youtube.com/watch?v=CplcmrxZMyo) - What happens with the "boundery of functional acceptable performance" gets ignored
+
 ### Week ending 6/6/2025
 - 📖 [Is AI-assisted coding an incident magnet?](https://leaddev.com/software-quality/ai-assisted-coding-incident-magnet) - Feels obvious in hindsight but draws a distionction between "read and write" mode for AI 
 
