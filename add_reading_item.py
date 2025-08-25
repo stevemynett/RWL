@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import os
 import re
 import subprocess
+import sys
 
 README_FILE = "README.md"
 
@@ -131,4 +132,8 @@ def main():
         print("Skipping git operations due to an unexpected error.")
 
 if __name__ == "__main__":
-    main() 
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nCancelled by user.")
+        sys.exit(130)
