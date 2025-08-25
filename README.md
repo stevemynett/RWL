@@ -2,6 +2,13 @@
 
 - 📺 [Netflix doc on the Titan disaster](https://www.youtube.com/watch?v=CplcmrxZMyo) - What happens with the "boundery of functional acceptable performance" gets ignored
 
+- 📺 [Uptime Labs and the Multi Party Dilemma ](https://www.youtube.com/watch?v=dxZbvThQGDA) - Sorta meta take on incident reveiew. I really enjoyed watching Eric's facilitation techniques. 
+- 📖 [Can LLMs replace on call SREs today?](https://clickhouse.com/blog/llm-observability-challenge) - GPT5 era data backed take on "SRE Agents" 
+
+- 📺 [Software engineering with LLMs in 2025: reality check](https://www.youtube.com/watch?v=EO3_qN_Ynsk) - Overview of AI coding usage broken down by company type
+- 📺 [Making Your Bets with AI ](https://www.youtube.com/watch?v=FJatQY7fe1A) - How sure are we that solo AI will work? 
+
+>>>>>>> Stashed changes
 - 📖 [Is AI-assisted coding an incident magnet?](https://leaddev.com/software-quality/ai-assisted-coding-incident-magnet) - Feels obvious in hindsight but draws a distionction between "read and write" mode for AI 
 
 - 📖 [In defense of shallow technical knowledge](https://www.seangoedecke.com/shallow-technical-knowledge/) - This puts into words how I've been thinking about how to approach technical knowledge for an Incident Team.

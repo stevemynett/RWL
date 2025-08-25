@@ -4,9 +4,9 @@
 from datetime import datetime, timedelta
 import os
 import re
+import subprocess
 
 README_FILE = "README.md"
-MAIN_TITLE_MARKER = "# What I'm Reading, Watching, and Listening To"
 
 def get_icon(url):
     """Determines the icon based on the URL."""
@@ -42,12 +42,9 @@ def main():
     new_markdown_item = f"- {icon} [{title}]({url}) - {description}"
 
     if not os.path.exists(README_FILE):
-        # Create README.md with a basic structure if it doesn't exist
-        lines = [
-            f"{MAIN_TITLE_MARKER} as it pertains to my career as an Incident Response Manager.\n",
-            "\n"
-        ]
-        print(f"'{README_FILE}' not found. Creating it with a default header.")
+        # Create README.md if it doesn't exist (no title/header)
+        lines = []
+        print(f"'{README_FILE}' not found. Creating it.")
     else:
         with open(README_FILE, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -55,41 +52,14 @@ def main():
     # Ensure all lines end with a newline for consistent processing
     lines = [line if line.endswith('\n') else line + '\n' for line in lines]
 
-    # Find where to insert the new item
-    # It should go after the H1 title block and any intro text
-    
-    h1_index = -1
-    for i, line in enumerate(lines):
-        if line.startswith(MAIN_TITLE_MARKER):
-            h1_index = i
-            break
-    
-    if h1_index == -1 and not lines: # Empty file, or file created fresh without H1
-         lines.insert(0, f"{MAIN_TITLE_MARKER} as it pertains to my career as an Incident Response Manager.\n")
-         lines.insert(1, "\n") # Blank line after title
-         h1_index = 0
-
-    # Find the end of the H1 title block (H1 + any subsequent blank lines)
-    insert_after_h1_idx = h1_index 
-    if h1_index != -1: # If H1 was found
-        while insert_after_h1_idx + 1 < len(lines) and lines[insert_after_h1_idx + 1].strip() == "":
-            insert_after_h1_idx += 1
-    
-    # Insert the new item at the top of the list (after the title block)
-    final_insert_idx = insert_after_h1_idx + 1
-    
-    # Add a preceding newline if the line before insertion point isn't blank
-    # (and not the H1 itself if it's the only thing)
-    if final_insert_idx > 0 and lines[final_insert_idx-1].strip() != "" and not lines[final_insert_idx-1].startswith(MAIN_TITLE_MARKER):
-        lines.insert(final_insert_idx, "\n")
-        lines.insert(final_insert_idx + 1, new_markdown_item + "\n")
-    elif final_insert_idx == 0: # Empty file scenario
-        lines.insert(final_insert_idx, new_markdown_item + "\n")
-    elif lines[final_insert_idx-1].startswith(MAIN_TITLE_MARKER) and lines[final_insert_idx-1].strip() != "": # Directly after H1
-        lines.insert(final_insert_idx, "\n") # Ensure a blank line after H1
-        lines.insert(final_insert_idx + 1, new_markdown_item + "\n")
-    else: # Already a blank line or just after H1
-         lines.insert(final_insert_idx, new_markdown_item + "\n")
+    # Insert the new item at the very top of the file
+    if not lines:
+        lines.insert(0, new_markdown_item + "\n")
+    else:
+        lines.insert(0, new_markdown_item + "\n")
+        # Ensure a blank line after the newly inserted item if the next line isn't blank
+        if len(lines) > 1 and lines[1].strip() != "":
+            lines.insert(1, "\n")
 
     # Remove any excessive blank lines that might have been created, but keep single blank lines
     # For instance, multiple blank lines between items or at the end of the file.
@@ -112,6 +82,53 @@ def main():
         f.writelines(deduplicated_lines)
 
     print(f"Successfully added '{title}' to '{README_FILE}'.")
+
+    # Attempt to automatically commit and push changes if in a git repository
+    try:
+        # Check if we're inside a git repository
+        in_repo = subprocess.run(
+            ["git", "rev-parse", "--is-inside-work-tree"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+        if in_repo.returncode == 0:
+            # Check if README has staged/unstaged changes
+            status = subprocess.run(
+                ["git", "status", "--porcelain", "--", README_FILE],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+            )
+            if status.stdout.strip():
+                subprocess.run(["git", "add", README_FILE], check=False)
+                commit_message = f"rwl: add item '{title}'"
+                commit = subprocess.run(
+                    ["git", "commit", "-m", commit_message],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True,
+                )
+                if commit.returncode == 0:
+                    push = subprocess.run(
+                        ["git", "push"],
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
+                        text=True,
+                    )
+                    if push.returncode == 0:
+                        print("Changes pushed to remote.")
+                    else:
+                        print("Git push failed. You may need to set an upstream or authenticate.")
+                else:
+                    print("No commit created. Git commit may have failed or there were no changes.")
+            else:
+                print("No changes detected in README.md; skipping git commit/push.")
+        else:
+            print("Not a git repository; skipping git commit/push.")
+    except Exception:
+        # Fail silently for git automation to avoid interrupting primary flow
+        print("Skipping git operations due to an unexpected error.")
 
 if __name__ == "__main__":
     main() 
