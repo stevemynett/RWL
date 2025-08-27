@@ -53,14 +53,21 @@ def main():
     # Ensure all lines end with a newline for consistent processing
     lines = [line if line.endswith('\n') else line + '\n' for line in lines]
 
-    # Insert the new item at the very top of the file
+    # Insert the new item directly under the title/header (first non-empty line)
     if not lines:
         lines.insert(0, new_markdown_item + "\n")
     else:
-        lines.insert(0, new_markdown_item + "\n")
-        # Ensure a blank line after the newly inserted item if the next line isn't blank
-        if len(lines) > 1 and lines[1].strip() != "":
-            lines.insert(1, "\n")
+        # Find the first non-empty line as the title/header
+        header_index = next((i for i, line in enumerate(lines) if line.strip() != ""), 0)
+        # Determine insertion point: after any blank lines that follow the header
+        insertion_index = header_index + 1
+        while insertion_index < len(lines) and lines[insertion_index].strip() == "":
+            insertion_index += 1
+        # Insert the new item at the computed position (top of the list)
+        lines.insert(insertion_index, new_markdown_item + "\n")
+        # Ensure there is at least one blank line between the header and the list
+        if insertion_index == header_index + 1:
+            lines.insert(insertion_index, "\n")
 
     # Remove any excessive blank lines that might have been created, but keep single blank lines
     # For instance, multiple blank lines between items or at the end of the file.

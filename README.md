@@ -1,6 +1,9 @@
-- 📖 [I Am an AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) - I'm here for the hot takes and good to balance all the "amazing" posts with the opposite views. 
-
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
+
+- 📖 [I Am an AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) - I'm here for the hot takes and good to balance all the "amazing" posts with the opposite views. 
+- 
+
+
 
 - 📺 [Netflix doc on the Titan disaster](https://www.youtube.com/watch?v=CplcmrxZMyo) - What happens with the "boundery of functional acceptable performance" gets ignored
 
