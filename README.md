@@ -1,9 +1,8 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+- 📖 [Intercept: Secret History of Computers and Spies](https://www.goodreads.com/book/show/25226976-intercept) - Encryption and bridging popst WW2 espionage and rise of tech
 - 📖 [I Am an AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) - I'm here for the hot takes and good to balance all the "amazing" posts with the opposite views. 
 - 
-
-
 
 - 📺 [Netflix doc on the Titan disaster](https://www.youtube.com/watch?v=CplcmrxZMyo) - What happens with the "boundery of functional acceptable performance" gets ignored
 
@@ -13,7 +12,6 @@
 - 📺 [Software engineering with LLMs in 2025: reality check](https://www.youtube.com/watch?v=EO3_qN_Ynsk) - Overview of AI coding usage broken down by company type
 - 📺 [Making Your Bets with AI ](https://www.youtube.com/watch?v=FJatQY7fe1A) - How sure are we that solo AI will work? 
 
->>>>>>> Stashed changes
 - 📖 [Is AI-assisted coding an incident magnet?](https://leaddev.com/software-quality/ai-assisted-coding-incident-magnet) - Feels obvious in hindsight but draws a distionction between "read and write" mode for AI 
 
 - 📖 [In defense of shallow technical knowledge](https://www.seangoedecke.com/shallow-technical-knowledge/) - This puts into words how I've been thinking about how to approach technical knowledge for an Incident Team.
