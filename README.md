@@ -1,5 +1,6 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+- 📺 [](Does AI Actually Boost Developer Productivity? (100k Devs Study)https://www.youtube.com/watch?v=tbDDYKRFjhk) - There's enough research to see the impact to productivity. 
 - 📖 []() - CA
 - 📖 [Intercept: Secret History of Computers and Spies](https://www.goodreads.com/book/show/25226976-intercept) - Encryption and bridging popst WW2 espionage and rise of tech
 - 📖 [I Am an AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) - I'm here for the hot takes and good to balance all the "amazing" posts with the opposite views. 
