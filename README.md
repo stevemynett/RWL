@@ -1,5 +1,6 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+- 📖 [Something I'm reading](https://github.com/stevemynett/RWL/blob/main/README.md) - Somsething more that Im' reading test test
 - 📺 [](Does AI Actually Boost Developer Productivity? (100k Devs Study)https://www.youtube.com/watch?v=tbDDYKRFjhk) - There's enough research to see the impact to productivity. 
 - 📖 []() - CA
 - 📖 [Intercept: Secret History of Computers and Spies](https://www.goodreads.com/book/show/25226976-intercept) - Encryption and bridging popst WW2 espionage and rise of tech
