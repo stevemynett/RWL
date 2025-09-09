@@ -1,5 +1,6 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+- 📖 [The problems that accountability can’t fix](https://surfingcomplexity.blog/2025/08/23/the-problems-that-accountability-cant-fix/) - Nice post form Loren on org pressures including outlining double blinds
 - 📺 [Does AI Actually Boost Developer Productivity? (100k Devs Study)](https://www.youtube.com/watch?v=tbDDYKRFjhk) - There's enough research to see the impact to productivity. 
 - 📖 []() - CA
 - 📖 [Intercept: Secret History of Computers and Spies](https://www.goodreads.com/book/show/25226976-intercept) - Encryption and bridging popst WW2 espionage and rise of tech
