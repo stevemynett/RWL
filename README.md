@@ -8,6 +8,7 @@
 - 📖 [I Am an AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) - I'm here for the hot takes and good to balance all the "amazing" posts with the opposite views. 
 
 - 📺 [Netflix doc on the Titan disaster](https://www.youtube.com/watch?v=CplcmrxZMyo) - What happens with the "boundery of functional acceptable performance" gets ignored
+<<<<<<< HEAD
 
 - 📺 [Uptime Labs and the Multi Party Dilemma ](https://www.youtube.com/watch?v=dxZbvThQGDA) - Sorta meta take on incident reveiew. I really enjoyed watching Eric's facilitation techniques. 
 - 📖 [Can LLMs replace on call SREs today?](https://clickhouse.com/blog/llm-observability-challenge) - GPT5 era data backed take on "SRE Agents" 
@@ -15,16 +16,17 @@
 - 📺 [Software engineering with LLMs in 2025: reality check](https://www.youtube.com/watch?v=EO3_qN_Ynsk) - Overview of AI coding usage broken down by company type
 - 📺 [Making Your Bets with AI ](https://www.youtube.com/watch?v=FJatQY7fe1A) - How sure are we that solo AI will work? 
 
-- 📖 [Is AI-assisted coding an incident magnet?](https://leaddev.com/software-quality/ai-assisted-coding-incident-magnet) - Feels obvious in hindsight but draws a distionction between "read and write" mode for AI 
+||||||| parent of e412b9d (Formatting)
 
+=======
+>>>>>>> e412b9d (Formatting)
+- 📖 [Is AI-assisted coding an incident magnet?](https://leaddev.com/software-quality/ai-assisted-coding-incident-magnet) - Feels obvious in hindsight but draws a distionction between "read and write" mode for AI 
 - 📖 [In defense of shallow technical knowledge](https://www.seangoedecke.com/shallow-technical-knowledge/) - This puts into words how I've been thinking about how to approach technical knowledge for an Incident Team.
 - 📺 [A 3-step AI coding workflow for solo founders](https://www.youtube.com/watch?v=fD4ktSkNCw4&t=1839s) - Very good overview to integrate great PRD/Task generation prompts in Cursor.
 - 📖 [What Do I Think I Think About LLMs](https://noelrappin.com/blog/2025/05/what-do-i-think-i-think-about-llms/) - Always good to read what your colleagues write
 - 📺 [State-Of-The-Art Prompting For AI Agents](https://www.youtube.com/watch?v=DL82mGde6wo) - Very good overview to integrate great PRD/Task generation prompts in Cursor.
-
 - 📺 [Anthropic MCP Server Course](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/lesson/fkbhh/introduction) - 90 minute training on MCP stuff. 
 - 📺 [How custom GPTs can make you a better manager](https://www.youtube.com/watch?v=xDMkkOC-EhI&t=1s) - Good take on AI for Managers
-
 - 📺 [Is reality real? These neuroscientists don’t think so | Big Think](https://www.youtube.com/watch?v=RZdfE_7cde0) - Talks about what is essentially the line of representation for reality. 
 - 📺 [A conversation with Jony Ive](https://www.youtube.com/watch?v=RZdfE_7cde0) - Lots in here but good insight on to what he thinks a god team is and how it works. 
 - 📺 [The CIA method for making quick decisions under stress](https://www.youtube.com/watch?v=h5sCj8ic1rM) - Prioritization and decision making under time pressure.
