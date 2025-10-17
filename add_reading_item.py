@@ -118,16 +118,26 @@ def main():
                     text=True,
                 )
                 if commit.returncode == 0:
-                    push = subprocess.run(
-                        ["git", "push"],
+                    # Pull latest changes before pushing to reduce push failures
+                    pull = subprocess.run(
+                        ["git", "pull", "--rebase", "--autostash"],
                         stdout=subprocess.PIPE,
                         stderr=subprocess.PIPE,
                         text=True,
                     )
-                    if push.returncode == 0:
-                        print("Changes pushed to remote.")
+                    if pull.returncode != 0:
+                        print("Git pull --rebase failed. Resolve conflicts and push manually.")
                     else:
-                        print("Git push failed. You may need to set an upstream or authenticate.")
+                        push = subprocess.run(
+                            ["git", "push"],
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE,
+                            text=True,
+                        )
+                        if push.returncode == 0:
+                            print("Changes pushed to remote.")
+                        else:
+                            print("Git push failed. You may need to set an upstream or authenticate.")
                 else:
                     print("No commit created. Git commit may have failed or there were no changes.")
             else:
