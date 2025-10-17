@@ -1,5 +1,6 @@
 # What I’m Reading, Watching, and Listening To as it pertains to my career as an Incident Response Manager. 
 
+- 📺 [The Race for the Next Generation of Rockets, with Jeff Thornburg](https://www.youtube.com/watch?v=kuK8Z7sxX_8) - Interesting takes on safety vs engineering in spaceship building
 - 📖 [You're definitely going to be a manager now](https://lg.substack.com/p/managing-ai-is-like-managing-humans) - Blurring the lines between being an IC and Manager in the age of AI 
 - 📖 [The problems that accountability can’t fix](https://surfingcomplexity.blog/2025/08/23/the-problems-that-accountability-cant-fix/) - Nice post form Loren on org pressures including outlining double blinds
 - 📺 [Does AI Actually Boost Developer Productivity? (100k Devs Study)](https://www.youtube.com/watch?v=tbDDYKRFjhk) - There's enough research to see the impact to productivity. 
