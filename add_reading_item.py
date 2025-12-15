@@ -42,6 +42,17 @@ def main():
     
     new_markdown_item = f"- {icon} [{title}]({url}) - {description}"
 
+    # Pull latest changes before reading file to minimize conflicts
+    try:
+        subprocess.run(
+            ["git", "pull", "--no-rebase"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+    except Exception:
+        pass  # Not a git repo or pull failed - continue anyway
+
     if not os.path.exists(README_FILE):
         # Create README.md if it doesn't exist (no title/header)
         lines = []
@@ -118,15 +129,16 @@ def main():
                     text=True,
                 )
                 if commit.returncode == 0:
-                    # Pull latest changes before pushing to reduce push failures
+                    # Use merge (not rebase) to combine changes - better for
+                    # "both sides added lines at the same spot" scenarios
                     pull = subprocess.run(
-                        ["git", "pull", "--rebase", "--autostash"],
+                        ["git", "pull", "--no-rebase"],
                         stdout=subprocess.PIPE,
                         stderr=subprocess.PIPE,
                         text=True,
                     )
                     if pull.returncode != 0:
-                        print("Git pull --rebase failed. Resolve conflicts and push manually.")
+                        print("Git pull failed. Resolve conflicts and push manually.")
                     else:
                         push = subprocess.run(
                             ["git", "push"],
