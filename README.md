@@ -2,6 +2,7 @@
 
 - 📖 [How AI Can Degrade Human Performance in High-Stakes Settings](https://ai-frontiers.org/articles/how-ai-can-degrade-human-performance-in-high-stakes-settings) - Shockingly it's not all unicorns and candy. Good research backed take on where/how/where not to include AI
 - 📖 [To Intervene or not to Intervene: The Dilemma of Management by Exception](https://resilienceroundup.com/issues/to-intervene-or-not-to-intervene-the-dilemma-of-management-by-exception/?ref=resilience-roundup-newsletter) - Airflight examples and based off work by Dekker and Woods
+- 📺 [Secret Service Agent: How To Stay In Control When Someone Is Trying To Manipulate You!](https://www.youtube.com/watch?v=xDQyLnNAXr4) - More frameworks on effective communication and negeotation 
 - 📖 [The AI coding trap](https://chrisloy.dev/post/2025/09/28/the-ai-coding-trap) - Data informed push back on the AI fluency arguement 
 - 📖 [The same incident never happens twice, but the patterns recur over and over](https://surfingcomplexity.blog/2025/05/26/the-same-incident-never-happens-twice-but-the-patterns-recur-over-and-over/) - The title says it all. 
 - 📺 [The Race for the Next Generation of Rockets, with Jeff Thornburg](https://www.youtube.com/watch?v=kuK8Z7sxX_8) - Interesting takes on safety vs engineering in spaceship building
