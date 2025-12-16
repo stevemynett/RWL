@@ -1,13 +1,23 @@
 #!/usr/bin/env python3
 
 # import argparse # No longer needed
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
-import re
 import subprocess
 import sys
 
-README_FILE = "README.md"
+
+def get_target_file():
+    """Determines the target file based on the current year."""
+    current_year = datetime.now().year
+    target_file = f"{current_year}.md"
+    
+    if not os.path.exists(target_file):
+        print(f"Error: '{target_file}' does not exist.")
+        print(f"Please create the file manually before adding items for {current_year}.")
+        sys.exit(1)
+    
+    return target_file
 
 def get_icon(url):
     """Determines the icon based on the URL."""
@@ -42,6 +52,9 @@ def main():
     
     new_markdown_item = f"- {icon} [{title}]({url}) - {description}"
 
+    # Determine the target file based on current year
+    target_file = get_target_file()
+
     # Pull latest changes before reading file to minimize conflicts
     try:
         subprocess.run(
@@ -53,13 +66,8 @@ def main():
     except Exception:
         pass  # Not a git repo or pull failed - continue anyway
 
-    if not os.path.exists(README_FILE):
-        # Create README.md if it doesn't exist (no title/header)
-        lines = []
-        print(f"'{README_FILE}' not found. Creating it.")
-    else:
-        with open(README_FILE, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+    with open(target_file, "r", encoding="utf-8") as f:
+        lines = f.readlines()
 
     # Ensure all lines end with a newline for consistent processing
     lines = [line if line.endswith('\n') else line + '\n' for line in lines]
@@ -97,10 +105,10 @@ def main():
     elif not deduplicated_lines and lines: # All lines were blank, restore one if original had content
         deduplicated_lines.append("\n")
 
-    with open(README_FILE, "w", encoding="utf-8") as f:
+    with open(target_file, "w", encoding="utf-8") as f:
         f.writelines(deduplicated_lines)
 
-    print(f"Successfully added '{title}' to '{README_FILE}'.")
+    print(f"Successfully added '{title}' to '{target_file}'.")
 
     # Attempt to automatically commit and push changes if in a git repository
     try:
@@ -112,15 +120,15 @@ def main():
             text=True,
         )
         if in_repo.returncode == 0:
-            # Check if README has staged/unstaged changes
+            # Check if target file has staged/unstaged changes
             status = subprocess.run(
-                ["git", "status", "--porcelain", "--", README_FILE],
+                ["git", "status", "--porcelain", "--", target_file],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
             )
             if status.stdout.strip():
-                subprocess.run(["git", "add", README_FILE], check=False)
+                subprocess.run(["git", "add", target_file], check=False)
                 commit_message = f"rwl: add item '{title}'"
                 commit = subprocess.run(
                     ["git", "commit", "-m", commit_message],
@@ -153,7 +161,7 @@ def main():
                 else:
                     print("No commit created. Git commit may have failed or there were no changes.")
             else:
-                print("No changes detected in README.md; skipping git commit/push.")
+                print(f"No changes detected in {target_file}; skipping git commit/push.")
         else:
             print("Not a git repository; skipping git commit/push.")
     except Exception:
